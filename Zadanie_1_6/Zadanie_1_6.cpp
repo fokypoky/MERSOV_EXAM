@@ -84,4 +84,5 @@ int main()
 		cout << endl << "Max b = " << b_max << endl << "Index = " << b_index;
 	}
 
+	delete[] A, B;
 }
