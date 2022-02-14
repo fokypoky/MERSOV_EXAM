@@ -63,6 +63,5 @@ int main()
     MyClass <float> my(len);
     my.Set();
     my.Print();
-    my.~MyClass();
 }
 
