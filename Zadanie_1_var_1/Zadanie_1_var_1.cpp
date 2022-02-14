@@ -52,6 +52,6 @@ int main()
 			cout << *(B + i) << " ";
 	}
 
-
+	delete[] A, B;
 }
 
