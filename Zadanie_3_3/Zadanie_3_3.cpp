@@ -15,7 +15,7 @@ public:
     }
     ~MyClass()
     {
-        delete a, A;
+        delete[] a, A;
     }
     void Print()
     {
